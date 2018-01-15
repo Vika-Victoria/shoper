@@ -42,7 +42,7 @@ $this->params['breadcrumbs'][] = $this->title;
            [
                 'attribute' => 'image',
                 'value' => "<img src='{$img->getUrl()}'>",
-                'format' => 'raw'
+                'format' => 'image'
             ],
             'content:ntext',
             'keywords',
